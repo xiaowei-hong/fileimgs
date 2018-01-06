@@ -1,0 +1,18 @@
+
+.o_web_client.o_touch_device .open .dropdown-menu > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.o_web_client.o_touch_device .ui-autocomplete .ui-menu-item > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.o_web_client.o_touch_device .btn-sm,
+.o_web_client.o_touch_device .btn-xs {
+  font-size: 13px;
+  padding: 7px 14px;
+}
+.o_web_client.o_touch_device .btn-icon {
+  font-size: 1.3em;
+  padding: 2px 10px;
+}

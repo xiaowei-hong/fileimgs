@@ -1,0 +1,80 @@
+
+.o_web_studio_client_action .o_web_studio_sidebar {
+  color: white;
+  background-color: #333941;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_header {
+  cursor: pointer;
+  margin-bottom: 15px;
+  padding: 0px;
+  background-color: #262C34;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #262C34;
+  background-repeat: repeat-x;
+  background-image: -webkit-linear-gradient(90deg, #333941, #262C34);
+  background-image: -o-linear-gradient(90deg, #333941, #262C34);
+  background-image: linear-gradient(90deg, #333941, #262C34);
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_header > div {
+  display: inline-block;
+  margin: 5px;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_header > div.inactive {
+  color: grey;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_header > div > i {
+  margin: 10px;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content {
+  margin: 10px;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > hr {
+  margin-left: -10px;
+  margin-right: -10px;
+  border-color: grey;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div {
+  padding: 5px 0;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div > label {
+  font-size: 10px;
+  color: grey;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div input,
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div select,
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div textarea {
+  background-color: #333941;
+  color: #EAEAEA;
+  border-color: grey;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div input:focus,
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div select:focus,
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div textarea:focus {
+  border-color: #EAEAEA;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div input[type=text],
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div select[type=text],
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div textarea[type=text] {
+  margin-bottom: 6px;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div input[type=checkbox],
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div select[type=checkbox],
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div textarea[type=checkbox] {
+  width: auto;
+  float: right;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div input > option,
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div select > option,
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div textarea > option {
+  color: #EAEAEA;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div .o_form_field {
+  width: 100%;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content > div > button {
+  border: 1px solid #EAEAEA;
+  background-color: #333941;
+  color: #EAEAEA;
+}
+.o_web_studio_client_action .o_web_studio_sidebar .o_web_studio_sidebar_content .o_web_studio_remove_warning_groups {
+  color: orange;
+}

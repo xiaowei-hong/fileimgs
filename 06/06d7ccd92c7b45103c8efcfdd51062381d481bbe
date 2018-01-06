@@ -1,0 +1,13 @@
+
+#wrapwrap footer {
+  background-color: #fff;
+  color: #004460;
+}
+#wrapwrap .top .fa {
+  background-color: #0092B2;
+  color: #fff;
+}
+#wrapwrap .top .fa:hover {
+  background-color: #fff;
+  color: #0092B2;
+}

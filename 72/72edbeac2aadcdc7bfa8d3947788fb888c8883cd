@@ -1,0 +1,17 @@
+
+.s_well {
+  box-shadow: none;
+}
+.s_well .well-text {
+  overflow: hidden;
+}
+.s_well ol,
+.s_well p,
+.s_well ul {
+  width: 100%;
+}
+.s_well ol:last-child,
+.s_well p:last-child,
+.s_well ul:last-child {
+  margin-bottom: 0;
+}

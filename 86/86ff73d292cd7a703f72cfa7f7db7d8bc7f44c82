@@ -1,0 +1,28 @@
+
+#wrapwrap .s_collapse .panel {
+  box-shadow: 0 0 0 #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+}
+#wrapwrap .s_collapse .panel-group .panel-heading + .panel-collapse > .panel-body {
+  border: 0;
+}
+#wrapwrap .s_collapse .panel-heading {
+  padding: 0;
+}
+#wrapwrap .s_collapse .panel-heading a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 100%;
+  padding: 12px 0;
+  display: inline-block;
+}
+#wrapwrap .s_collapse .panel-heading a:before {
+  content: '\f056';
+  font-family: 'FontAwesome';
+  margin: 0 12px 0 16px;
+}
+#wrapwrap .s_collapse .panel-heading a.collapsed:before {
+  content: '\f055';
+  font-family: 'FontAwesome';
+}

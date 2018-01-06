@@ -1,0 +1,165 @@
+
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view:not(.o_form_nosheet) {
+  padding: 0;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_form_sheet_bg {
+  padding: 16px;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_form_sheet,
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .oe_chatter {
+  max-width: 100%;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .oe_chatter {
+  position: relative;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .oe_chatter .o_web_studio_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view.o_web_studio_form_view_editor .oe_edit_only {
+  display: inherit!important;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view.o_web_studio_form_view_editor .o_web_studio_new_line :first-child {
+  line-height: 0px;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view.o_web_studio_form_view_editor .o_web_studio_new_line span.o_web_studio_new_line_separator {
+  display: block;
+  position: relative;
+  height: 5px;
+  margin: 2px;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view.o_web_studio_form_view_editor .o_web_studio_new_line:hover {
+  cursor: pointer !important;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view.o_web_studio_form_view_editor .o_web_studio_new_line:hover span.o_web_studio_new_line_separator {
+  border-top: 1px solid #21b799;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view.o_web_studio_form_view_editor .o_web_studio_new_line:hover span.o_web_studio_new_line_separator:after {
+  float: right;
+  position: absolute;
+  left: 100%;
+  content: "\f0fe";
+  font-family: FontAwesome;
+  font-size: 14px;
+  color: #21b799;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_hovered {
+  outline: 1px dashed #21b799;
+  cursor: pointer;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_clicked {
+  outline: 1px dashed black;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_web_studio_button_hook {
+  width: 48px;
+  cursor: pointer;
+  text-align: center;
+  padding: 0;
+  border-left: none;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .oe_button_box:hover .o_web_studio_button_hook:before {
+  content: "\f0fe";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #21b799;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_web_studio_buttonbox_hook {
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 48px;
+  cursor: pointer;
+  color: #21b799;
+  font-weight: bold;
+  opacity: 0.6;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_web_studio_buttonbox_hook:hover {
+  opacity: 1;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_web_studio_add_chatter {
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 10px;
+  height: 60px;
+  max-width: 100%;
+  cursor: pointer;
+  background-color: lightgray;
+  color: #21b799;
+  font-weight: bold;
+  opacity: 0.6;
+}
+@media (min-width: 768px) {
+  .o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_web_studio_add_chatter {
+    width: 752px;
+  }
+}
+@media (min-width: 992px) {
+  .o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_web_studio_add_chatter {
+    width: 972px;
+  }
+}
+@media (min-width: 1200px) {
+  .o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_web_studio_add_chatter {
+    width: 1172px;
+  }
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_web_studio_add_chatter > .navbar-header,
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_web_studio_add_chatter > .navbar-collapse {
+  margin-right: -16px;
+  margin-left: -16px;
+}
+@media (min-width: 768px) {
+  .o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_web_studio_add_chatter > .navbar-header,
+  .o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_web_studio_add_chatter > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_form_view .o_web_studio_add_chatter:hover {
+  opacity: 1;
+}
+table.o_web_studio_new_elements {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+table.o_web_studio_new_elements td.o_web_studio_new_element {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+table.o_web_studio_new_elements td.o_web_studio_new_element[disabled] {
+  opacity: 0.5;
+  cursor: auto;
+}
+table.o_web_studio_new_elements td.o_web_studio_new_element > i {
+  font-size: 35px;
+}
+.o_web_studio_new_button_dialog > div {
+  margin-top: 16px;
+}

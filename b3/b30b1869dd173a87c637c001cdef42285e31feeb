@@ -1,0 +1,174 @@
+
+.o_application_switcher {
+  background-position: center;
+  background-image: url(/web_enterprise/static/src/img/application-switcher-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #797083;
+  background: -moz-linear-gradient(135deg, #797083, #c59b9c);
+  background: -o-linear-gradient(135deg, #c59b9c, #797083);
+  background: -webkit-gradient(linear, left top, right bottom, from(#c59b9c), to(#797083));
+  background: -ms-linear-gradient(top, #c59b9c, #797083);
+  font-size: 15px;
+}
+.o_application_switcher .o_menu_search.o_bar_hidden input {
+  cursor: default;
+}
+.o_application_switcher .o_application_switcher_scrollable .o_apps {
+  margin-top: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.o_application_switcher .o_application_switcher_scrollable .o_apps .o_app {
+  padding: 10px 0;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 6%;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.o_application_switcher .o_application_switcher_scrollable .o_apps .o_app .o_app_icon {
+  width: 80%;
+  max-width: 70px;
+  border-radius: 6%;
+  -webkit-transition: all 0.1s ease 0s;
+  -moz-transition: all 0.1s ease 0s;
+  -o-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  -webkit-filter: grayscale(25%);
+  filter: grayscale(25%);
+}
+.o_application_switcher .o_application_switcher_scrollable .o_apps .o_app div.o_app_icon {
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.o_application_switcher .o_application_switcher_scrollable .o_apps .o_app div.o_app_icon:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.o_application_switcher .o_application_switcher_scrollable .o_apps .o_app div.o_app_icon > i.fa {
+  position: absolute;
+  top: 27%;
+  left: 0;
+  bottom: auto;
+  right: 0;
+  font-size: 36px;
+}
+@media screen and (max-width: 408px) {
+  .o_application_switcher .o_application_switcher_scrollable .o_apps .o_app div.o_app_icon > i.fa {
+    font-size: 30px;
+    font-size: 8.826vw;
+  }
+}
+.o_application_switcher .o_application_switcher_scrollable .o_apps .o_app .o_caption {
+  display: block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  margin-top: 8px;
+  color: white;
+  font-weight: 700;
+}
+.o_application_switcher .o_application_switcher_scrollable .o_apps .o_app:focus,
+.o_application_switcher .o_application_switcher_scrollable .o_apps .o_app.o_focused {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.o_application_switcher .o_application_switcher_scrollable .o_apps .o_app:focus .o_app_icon,
+.o_application_switcher .o_application_switcher_scrollable .o_apps .o_app.o_focused .o_app_icon {
+  box-shadow: 0 0 0 transparent;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.o_application_switcher .o_application_switcher_scrollable .o_apps .o_app:hover {
+  border-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.o_application_switcher .o_application_switcher_scrollable .o_apps .o_app:hover .o_app_icon {
+  box-shadow: 0 0 0 transparent;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.o_application_switcher .o_application_switcher_scrollable .o_menuitems {
+  margin-bottom: 40px;
+}
+.o_application_switcher .o_application_switcher_scrollable .o_menuitems .o_menuitem {
+  padding: 2px;
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  color: #e2e2e0;
+  margin-bottom: 3px;
+  outline: none;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .o_application_switcher .o_application_switcher_scrollable .o_menuitems .o_menuitem {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .o_application_switcher .o_application_switcher_scrollable .o_menuitems .o_menuitem {
+    padding: 5px 0;
+  }
+}
+.o_application_switcher .o_application_switcher_scrollable .o_menuitems .o_menuitem:hover {
+  color: white;
+}
+.o_application_switcher .o_application_switcher_scrollable .o_menuitems .o_menuitem:focus,
+.o_application_switcher .o_application_switcher_scrollable .o_menuitems .o_menuitem.o_focused {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.o_application_switcher .o_application_switcher_scrollable .o_no_result {
+  color: #e2e2e0;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.o_application_switcher .o_application_switcher_scrollable .o_application_switcher_footer {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.o_application_switcher .o_application_switcher_scrollable .o_application_switcher_footer > img {
+  width: 96px;
+  margin-bottom: 30px;
+}
+.database_expiration_panel {
+  text-align: center;
+  max-width: 768px;
+  width: 100%;
+}
+.database_expiration_panel .alert {
+  margin-bottom: 0px;
+}
+@media (min-width: 992px) {
+  .database_expiration_panel .alert {
+    margin-top: 25px;
+  }
+}
+.database_expiration_panel a i {
+  margin: 0 0.2em;
+}
+.oe_instance_register_form,
+.oe_instance_success,
+.oe_instance_error,
+.oe_subscription_updated {
+  display: none;
+}

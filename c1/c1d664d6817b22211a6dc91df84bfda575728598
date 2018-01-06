@@ -1,0 +1,12 @@
+
+#wrapwrap .label {
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 6px 14px 6px 10px;
+  margin: 0 8px 0 0;
+  display: inline-block;
+}
+#wrapwrap .label .fa {
+  margin: 0 4px;
+  vertical-align: middle;
+}

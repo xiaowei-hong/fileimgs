@@ -1,0 +1,18 @@
+
+.o_web_studio_client_action .o_ace_view_editor {
+  float: right;
+  background: #262C34;
+  color: white;
+  height: 100%;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+.o_web_studio_client_action .o_ace_view_editor .o_ace_view_editor_title .btn {
+  background-color: #333941;
+  border: 1px solid #EAEAEA;
+  color: #EAEAEA;
+}
+.o_web_studio_client_action .o_ace_view_editor .o_ace_view_editor_title .oe_include_bundles {
+  display: none;
+}

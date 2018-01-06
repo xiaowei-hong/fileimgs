@@ -1,0 +1,64 @@
+
+.o_web_studio_client_action .o_web_studio_view_editor {
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer {
+  -ms-flex: 1 1 auto;
+  -moz-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow: auto;
+  min-width: 0;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_web_studio_no_preview {
+  padding: 20px;
+  color: #EAEAEA;
+  font-size: x-large;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_web_studio_show_invisible {
+  opacity: 0.8;
+  background: repeating-linear-gradient(45deg, #F8F8FF, #F8F8FF 5px, #DCDCDC 10px, #DCDCDC 11px);
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_web_studio_list_view_editor,
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer > div.table-responsive,
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_kanban_view {
+  padding: 12px;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_web_studio_old_view_renderer {
+  position: relative;
+  height: 100%;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_web_studio_old_view_renderer .o_view_manager_content {
+  position: relative;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_web_studio_old_view_renderer .o_view_manager_content .o_calendar_sidebar_container {
+  display: none;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_view_renderer .o_web_studio_old_view_renderer .o_web_studio_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_web_studio_sidebar {
+  -ms-flex: 0 0 270px;
+  -moz-flex: 0 0 270px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 270px;
+  flex: 0 0 270px;
+  overflow: auto;
+}
+.o_web_studio_client_action .o_web_studio_view_editor .o_ace_view_editor {
+  -ms-flex: 0 0 auto;
+  -moz-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+}

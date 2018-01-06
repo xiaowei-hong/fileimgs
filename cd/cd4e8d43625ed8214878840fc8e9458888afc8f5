@@ -1,0 +1,67 @@
+
+blockquote {
+  font-style: italic;
+  margin: 0 0 12px 0;
+  padding: 0;
+  border: 0;
+}
+blockquote > .fa,
+blockquote > span .fa {
+  float: left;
+}
+blockquote .fa {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+blockquote .fa,
+blockquote .fa.fa-1x {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+blockquote .fa.fa-2x {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+blockquote .fa.fa-3x {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+}
+blockquote .fa.fa-4x {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+blockquote .fa.fa-5x {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+}
+blockquote img {
+  display: inline-block;
+  max-width: 40px;
+  max-height: 40px;
+}
+blockquote small {
+  display: inline-block;
+  color: #004460;
+}
+blockquote .blockquote-text {
+  overflow: hidden;
+  font-size: 16px;
+  text-align: left;
+}
+blockquote .blockquote-text:focus {
+  outline: none;
+}
+blockquote p {
+  background-color: #E4F8FF;
+  color: #004460;
+  padding: 24px;
+}
+blockquote {
+  font-size: 16px;
+}

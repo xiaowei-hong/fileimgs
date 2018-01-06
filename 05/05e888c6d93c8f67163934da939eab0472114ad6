@@ -1,0 +1,22 @@
+
+.o_web_studio_client_action {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+}
+.o_web_client.o_in_studio .modal .btn-primary {
+  background-color: #333941;
+  border: 1px solid #EAEAEA;
+  color: #EAEAEA;
+}
+.o_web_client.o_in_studio .modal .btn-danger {
+  background-color: #333941;
+  border: 1px solid #EAEAEA;
+  color: red;
+}
+.o_web_client.o_in_studio .modal .btn-default {
+  color: #333941;
+}

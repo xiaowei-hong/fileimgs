@@ -1,0 +1,35 @@
+
+.o_kanban_view.o_kanban_grouped .o_kanban_group .o_kanban_header {
+  color: white;
+}
+.o_kanban_view.o_kanban_grouped .o_kanban_group .o_kanban_header .o_kanban_config i {
+  color: #ccc;
+}
+.o_kanban_view.o_kanban_grouped .o_kanban_group .o_kanban_header .o_kanban_config i:hover {
+  background-color: #5e5e5e;
+}
+.o_kanban_view.o_kanban_grouped .o_kanban_group .o_kanban_header .o_kanban_quick_add > i {
+  color: white;
+}
+.o_kanban_view.o_kanban_grouped .o_kanban_group .o_kanban_header .o_kanban_quick_add > i:hover {
+  background-color: #21b799;
+}
+.o_kanban_view.o_kanban_grouped .o_kanban_group.o_column_folded {
+  background-color: #777777;
+  border-color: #666666;
+}
+.o_kanban_view.o_kanban_grouped .o_kanban_group.o_column_folded:hover {
+  background-color: #5e5e5e;
+}
+.o_kanban_view.o_kanban_grouped .o_column_quick_create {
+  background-color: #666666;
+}
+.o_kanban_view.o_kanban_grouped .o_column_quick_create:hover {
+  background-color: #5e5e5e;
+}
+.o_kanban_view.o_kanban_grouped .o_column_quick_create .o_column_header .o_kanban_add_column > i {
+  color: white;
+}
+.o_kanban_view.o_kanban_grouped .o_column_quick_create .o_column_header .o_kanban_title {
+  color: #eeeeee;
+}

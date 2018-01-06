@@ -1,0 +1,116 @@
+
+.o_web_studio_client_action .o_web_studio_action_editor {
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  -moz-flex-flow: row nowrap;
+  -webkit-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #EAEAEA;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_sidebar {
+  -ms-flex: 0 0 270px;
+  -moz-flex: 0 0 270px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 270px;
+  flex: 0 0 270px;
+  overflow: auto;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views {
+  -ms-flex: 1 1 auto;
+  -moz-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow: auto;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category {
+  padding: 40px 16px;
+  text-align: center;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type {
+  display: -ms-inline-flexbox;
+  display: -moz-inline-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  position: relative;
+  height: 140px;
+  width: 115px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type + .o_web_studio_view_type {
+  margin-left: 30px;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type.o_web_studio_inactive {
+  opacity: 0.5;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type.o_web_studio_inactive .o_web_studio_more {
+  display: none;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type .o_web_studio_thumbnail {
+  height: 80px;
+  cursor: pointer;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type .o_web_studio_default_view {
+  position: absolute;
+  top: 10px;
+  left: auto;
+  bottom: auto;
+  right: 10px;
+  color: #21b799;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type .o_web_studio_name {
+  position: absolute;
+  top: auto;
+  left: 10px;
+  bottom: 10px;
+  right: auto;
+  font-weight: 500;
+  font-size: 12px;
+  color: #15161A;
+  text-transform: capitalize;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type .o_web_studio_more {
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: 7px;
+  right: 7px;
+  padding: 5px 9px;
+  border-radius: 50%;
+  font-size: 10px;
+  cursor: pointer;
+  color: #262C34;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type .o_web_studio_more:hover,
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type .o_web_studio_more:focus {
+  background-color: #EAEAEA;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type > .dropdown-menu {
+  left: 90px;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type > .dropdown-menu .o_web_studio_view_type_default {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.o_web_studio_client_action .o_web_studio_action_editor .o_web_studio_views .o_web_studio_view_category .o_web_studio_view_type > .dropdown-menu .o_web_studio_view_type_default > i {
+  position: absolute;
+  left: 8px;
+  bottom: 5px;
+}

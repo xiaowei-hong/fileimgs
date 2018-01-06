@@ -1,0 +1,21 @@
+
+.o_list_view.table {
+  border: none;
+}
+.o_list_view.table thead,
+.o_list_view.table tfoot,
+.o_list_view.table td,
+.o_list_view.table th {
+  border: none;
+}
+.o_list_view.table thead {
+  background-color: #e2e2e0;
+}
+.o_list_view.table thead > tr > th.o_column_sortable:hover {
+  background-color: #d6d6d3;
+}
+.o_list_view.table tbody tr.o_group_header {
+  background-color: #fbfbfa;
+  background-image: none;
+  border-top: 1px solid #e2e2e0;
+}

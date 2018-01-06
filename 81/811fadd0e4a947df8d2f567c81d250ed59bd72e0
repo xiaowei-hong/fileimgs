@@ -1,0 +1,13 @@
+
+.s_panel.panel {
+  background-color: inherit;
+}
+.s_panel .panel-heading {
+  border: 0;
+}
+.s_panel .panel-heading .fa {
+  margin-right: 12px;
+}
+.panel {
+  box-shadow: none;
+}

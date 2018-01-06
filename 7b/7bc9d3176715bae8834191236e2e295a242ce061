@@ -1,0 +1,89 @@
+
+#wrapwrap .s_quotes_slider_2.quotecarousel {
+  padding: 0;
+}
+#wrapwrap .s_quotes_slider_2 blockquote {
+  font-style: italic;
+  margin: 0 0 12px 0;
+  padding: 0;
+  border: 0;
+}
+#wrapwrap .s_quotes_slider_2 blockquote > .fa,
+#wrapwrap .s_quotes_slider_2 blockquote > span .fa {
+  float: left;
+}
+#wrapwrap .s_quotes_slider_2 blockquote .fa {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+#wrapwrap .s_quotes_slider_2 blockquote .fa,
+#wrapwrap .s_quotes_slider_2 blockquote .fa.fa-1x {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+#wrapwrap .s_quotes_slider_2 blockquote .fa.fa-2x {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+#wrapwrap .s_quotes_slider_2 blockquote .fa.fa-3x {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+}
+#wrapwrap .s_quotes_slider_2 blockquote .fa.fa-4x {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+#wrapwrap .s_quotes_slider_2 blockquote .fa.fa-5x {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+}
+#wrapwrap .s_quotes_slider_2 blockquote img {
+  display: inline-block;
+  max-width: 40px;
+  max-height: 40px;
+}
+#wrapwrap .s_quotes_slider_2 blockquote small {
+  display: inline-block;
+  color: #004460;
+}
+#wrapwrap .s_quotes_slider_2 blockquote .blockquote-text {
+  overflow: hidden;
+  font-size: 16px;
+  text-align: left;
+}
+#wrapwrap .s_quotes_slider_2 blockquote .blockquote-text:focus {
+  outline: none;
+}
+#wrapwrap .s_quotes_slider_2 blockquote p {
+  background-color: #fff;
+  color: #004460;
+  padding: 24px;
+}
+#wrapwrap .s_quotes_slider_2 .carousel-indicators {
+  bottom: 5px;
+}
+#wrapwrap .s_quotes_slider_2 .carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-color: #004460;
+  margin: 0;
+}
+#wrapwrap .s_quotes_slider_2 .carousel-indicators li:hover {
+  border-color: #0092B2;
+}
+#wrapwrap .s_quotes_slider_2 .carousel-indicators li.active {
+  background-color: #0092B2;
+  border-color: #0092B2;
+  margin: 0;
+}
+@media (max-width: 991px) {
+  #wrapwrap .s_quotes_slider_2 .carousel-indicators {
+    bottom: -5px;
+  }
+}

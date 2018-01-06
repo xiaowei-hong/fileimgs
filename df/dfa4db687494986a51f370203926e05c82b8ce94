@@ -1,0 +1,68 @@
+
+.o_web_studio_menu {
+  height: 46px;
+  background-color: #333941;
+  text-align: center;
+}
+.o_web_studio_menu .o_web_studio_breadcrumb {
+  display: inline-block;
+  float: left;
+  background-color: #333941;
+}
+.o_web_studio_menu .o_web_studio_breadcrumb > ol {
+  background-color: inherit;
+  margin: 12px;
+}
+.o_web_studio_menu .o_web_studio_breadcrumb > ol > li {
+  color: #EAEAEA;
+}
+.o_web_studio_menu .o_web_studio_breadcrumb > ol > li.active {
+  color: white;
+  font-weight: bold;
+}
+.o_web_studio_menu .o_web_studio_breadcrumb > ol > li.o_back_button {
+  cursor: pointer;
+}
+.o_web_studio_menu .o_web_studio_breadcrumb > ol > li + li:before {
+  content: "\003E";
+}
+.o_web_studio_menu .o_web_studio_undo,
+.o_web_studio_menu .o_web_studio_redo {
+  display: inline-block;
+  margin: 8px;
+}
+.o_web_studio_menu .o_web_studio_undo > button,
+.o_web_studio_menu .o_web_studio_redo > button {
+  background-color: #333941;
+  border: 1px solid #EAEAEA;
+  color: #EAEAEA;
+}
+.o_web_studio_menu .o_menu_sections {
+  float: right;
+  margin: 0;
+  list-style: none;
+}
+.o_web_studio_menu .o_menu_sections > li {
+  float: left;
+  position: relative;
+}
+.o_web_studio_menu .o_menu_sections > li > ul.dropdown-menu {
+  right: 0;
+  left: auto;
+}
+.o_web_studio_menu .o_menu_sections > li > a {
+  display: block;
+  padding: 0 10px;
+  height: 46px;
+  line-height: 46px;
+  color: lightgrey;
+}
+.o_web_studio_menu .o_menu_sections > li > a:hover {
+  color: white;
+  background-color: #262C34;
+}
+.o_web_studio_menu .o_menu_sections > li > a.active {
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid #21b799;
+}

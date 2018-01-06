@@ -1,0 +1,48 @@
+
+.s_share .s_share_title {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.s_share a:hover {
+  text-decoration: none;
+}
+.s_share a:hover .fa {
+  background-color: #0092B2;
+  color: #fff;
+}
+.s_share a .fa {
+  background-color: #E4F8FF;
+  color: #0092B2;
+}
+.s_share a .fa {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+.s_share a .fa,
+.s_share a .fa.fa-1x {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+.s_share a .fa.fa-2x {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+.s_share a .fa.fa-3x {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+}
+.s_share a .fa.fa-4x {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+.s_share a .fa.fa-5x {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+}

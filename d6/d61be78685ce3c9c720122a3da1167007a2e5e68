@@ -1,0 +1,43 @@
+
+.o_web_studio_list_view_editor .o_list_view.table {
+  border-collapse: separate;
+}
+.o_web_studio_list_view_editor .o_list_view.table th,
+.o_web_studio_list_view_editor .o_list_view.table td {
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+.o_web_studio_list_view_editor .o_list_view.table th.o_web_studio_new_column,
+.o_web_studio_list_view_editor .o_list_view.table td.o_web_studio_new_column {
+  border-left: 2px solid transparent;
+}
+.o_web_studio_list_view_editor .o_list_view.table th.o_hover:not(.o_web_studio_new_column) {
+  color: black;
+  border-left: 1px dashed #21b799;
+  border-right: 1px dashed #21b799;
+}
+.o_web_studio_list_view_editor .o_list_view.table td.o_hover:not(.o_web_studio_new_column) {
+  border-left: 1px dashed #21b799;
+  border-right: 1px dashed #21b799;
+}
+.o_web_studio_list_view_editor .o_list_view.table th.o_clicked:not(.o_web_studio_new_column) {
+  background-color: white;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.o_web_studio_list_view_editor .o_list_view.table td.o_clicked:not(.o_web_studio_new_column) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.o_web_studio_list_view_editor .o_list_view.table th.o_web_studio_new_column.o_hover {
+  cursor: pointer !important;
+  border-left: 2px solid #21b799;
+}
+.o_web_studio_list_view_editor .o_list_view.table th.o_web_studio_new_column > i {
+  visibility: hidden;
+  color: #21b799;
+}
+.o_web_studio_list_view_editor .o_list_view.table td.o_web_studio_new_column.o_hover {
+  cursor: pointer !important;
+  border-left: 2px solid #21b799;
+}

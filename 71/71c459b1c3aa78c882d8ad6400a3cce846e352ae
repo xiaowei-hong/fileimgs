@@ -1,0 +1,109 @@
+
+#wrapwrap .s_banner_2.carousel {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#wrapwrap .s_banner_2.carousel .row.content {
+  margin: 0;
+  outline: 0;
+}
+#wrapwrap .s_banner_2.carousel .carousel-box-content {
+  padding: 15px 30px;
+}
+#wrapwrap .s_banner_2.carousel .carousel-box-image {
+  padding: 0;
+}
+#wrapwrap .s_banner_2.carousel .carousel-inner .item {
+  background-position: 50% 50%;
+}
+#wrapwrap .s_banner_2.carousel .carousel-control {
+  opacity: 1;
+  text-shadow: none;
+  color: #004460;
+  font-size: inherit;
+  width: 5%;
+}
+#wrapwrap .s_banner_2.carousel .carousel-control .fa {
+  top: 50%;
+  background-color: #fff;
+}
+#wrapwrap .s_banner_2.carousel .carousel-control .fa:hover {
+  color: #0092B2;
+}
+@media (max-width: 767px) {
+  #wrapwrap .s_banner_2.carousel .carousel-control .fa {
+    top: auto;
+    bottom: 0;
+  }
+}
+#wrapwrap .s_banner_2.carousel .carousel-control .fa {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+#wrapwrap .s_banner_2.carousel .carousel-control .fa,
+#wrapwrap .s_banner_2.carousel .carousel-control .fa.fa-1x {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+#wrapwrap .s_banner_2.carousel .carousel-control .fa.fa-2x {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+#wrapwrap .s_banner_2.carousel .carousel-control .fa.fa-3x {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+}
+#wrapwrap .s_banner_2.carousel .carousel-control .fa.fa-4x {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+#wrapwrap .s_banner_2.carousel .carousel-control .fa.fa-5x {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+}
+#wrapwrap .s_banner_2.carousel .carousel-control.left {
+  background-image: none;
+  left: 15px;
+}
+#wrapwrap .s_banner_2.carousel .carousel-control.left .fa {
+  left: 0;
+  right: auto;
+  padding-right: 2px;
+}
+#wrapwrap .s_banner_2.carousel .carousel-control.right {
+  background-image: none;
+  right: 15px;
+}
+#wrapwrap .s_banner_2.carousel .carousel-control.right .fa {
+  right: 0;
+  left: auto;
+  padding-left: 2px;
+}
+#wrapwrap .s_banner_2.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#wrapwrap .s_banner_2.carousel .carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-color: #004460;
+  margin: 0;
+}
+#wrapwrap .s_banner_2.carousel .carousel-indicators li:hover {
+  border-color: #0092B2;
+}
+#wrapwrap .s_banner_2.carousel .carousel-indicators li.active {
+  background-color: #0092B2;
+  border-color: #0092B2;
+  margin: 0;
+}
+@media (max-width: 991px) {
+  #wrapwrap .s_banner_2.carousel .carousel-indicators {
+    bottom: 10px;
+  }
+}

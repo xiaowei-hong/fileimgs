@@ -1,0 +1,39 @@
+
+.o_web_studio_client_action.o_report_editor {
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.o_web_studio_client_action.o_report_editor .o_report_iframe {
+  -ms-flex: 1 1 auto;
+  -moz-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: initial;
+}
+.o_web_studio_client_action.o_report_editor .o_web_studio_sidebar {
+  -ms-flex: 0 0 270px;
+  -moz-flex: 0 0 270px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 270px;
+  flex: 0 0 270px;
+  overflow: auto;
+}
+.o_web_studio_client_action.o_report_editor .o_ace_view_editor {
+  -ms-flex: 0 0 auto;
+  -moz-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+.o_web_studio_report_kanban .o_kanban_image > i {
+  font-size: 5em;
+}
+.o_web_studio_report_kanban .oe_kanban_details > div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

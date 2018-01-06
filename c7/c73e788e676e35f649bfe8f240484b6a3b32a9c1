@@ -1,0 +1,107 @@
+
+.o_list_view tr.o_selected_row {
+  outline: 1px solid lightgray;
+}
+.o_list_view td.o_edit_mode {
+  position: relative;
+  outline: 1px solid gray;
+  background-color: white;
+}
+.o_list_view td.o_edit_mode.o_required_field {
+  outline-width: 2px;
+  z-index: 1;
+}
+.o_list_view td.o_edit_mode .o_form_input {
+  border: none;
+  padding: 0 5px;
+}
+.o_list_view td.o_edit_mode > .o_field_widget,
+.o_list_view td.o_edit_mode > .o_form_field_many2one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.o_list_view td.o_edit_mode .o_form_field_many2one .o_form_input_dropdown {
+  -ms-flex: 1 1 auto;
+  -moz-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+.o_list_view td.o_edit_mode .o_form_field_many2one .o_form_input_dropdown .o_form_input {
+  height: 100%;
+}
+.o_list_view td.o_edit_mode .o_form_field_many2one .o_form_input_dropdown .o_dropdown_button {
+  display: none;
+}
+.o_list_view td.o_edit_mode .o_form_field_many2manytags .o_form_field_many2one {
+  height: 100%;
+  display: inline-block;
+}
+.o_list_view td.o_edit_mode .o_field_boolean {
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.o_list_view td.o_field_dirty {
+  outline: 1px solid orange;
+}
+.o_form_field_many2one {
+  display: -ms-inline-flexbox;
+  display: -moz-inline-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+.o_form_field_many2one > span,
+.o_form_field_many2one > button {
+  -ms-flex: 0 0 auto;
+  -moz-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+.o_form_field_many2manytags .badge {
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  border: 0;
+}
+.o_form_input_dropdown {
+  -ms-flex: 1 0 auto;
+  -moz-flex: 1 0 auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  flex: 1 0 auto;
+  position: relative;
+}
+.o_form_input_dropdown > input {
+  padding-right: 15px;
+  cursor: pointer;
+}
+.o_form_input_dropdown .o_dropdown_button {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: auto;
+  bottom: auto;
+  right: 0;
+}
+.o_form_input_dropdown .o_dropdown_button:after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-bottom: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid;
+  -moz-transform: scale(0.9999);
+}

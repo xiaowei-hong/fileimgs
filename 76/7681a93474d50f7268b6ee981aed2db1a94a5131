@@ -1,0 +1,121 @@
+
+.o-studio-app-creator-background {
+  background-repeat: repeat-x;
+  background-image: -webkit-linear-gradient(90deg, #565d78, #65545c);
+  background-image: -o-linear-gradient(90deg, #565d78, #65545c);
+  background-image: linear-gradient(90deg, #565d78, #65545c);
+}
+.o_web_client.o_in_studio .o_application_switcher {
+  background-repeat: repeat-x;
+  background-image: -webkit-linear-gradient(90deg, #565d78, #65545c);
+  background-image: -o-linear-gradient(90deg, #565d78, #65545c);
+  background-image: linear-gradient(90deg, #565d78, #65545c);
+}
+.o_web_client.o_in_studio .o_application_switcher .o_application_switcher_footer,
+.o_web_client.o_in_studio .o_application_switcher .o_menu_search,
+.o_web_client.o_in_studio .o_application_switcher .database_expiration_panel {
+  visibility: hidden;
+}
+.o_web_client.o_in_studio .o_application_switcher .o_app:not(.o_web_studio_new_app) {
+  cursor: default;
+}
+.o_web_client.o_in_studio .o_application_switcher .o_app.o_web_studio_new_app .o_app_icon {
+  border: 1px #e2e2e0 dashed;
+}
+.o_web_client.o_in_studio .o_application_switcher .o_app.o_web_studio_new_app:hover .o_app_icon {
+  border-color: white;
+}
+.o_web_client.o_in_studio .o_application_switcher .o_app.o_web_studio_new_app:hover .o_caption {
+  color: white;
+}
+.o_web_studio_app_creator {
+  background-repeat: repeat-x;
+  background-image: -webkit-linear-gradient(90deg, #565d78, #65545c);
+  background-image: -o-linear-gradient(90deg, #565d78, #65545c);
+  background-image: linear-gradient(90deg, #565d78, #65545c);
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box {
+  color: #292e36;
+  border-radius: 3px;
+  box-shadow: 0 1px 5px #292e36;
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box .o_web_studio_app_creator_left {
+  background-color: white;
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box .o_web_studio_app_creator_right {
+  background-color: #292e36;
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box .o_web_studio_app_creator_right .o_web_studio_app_creator_leave {
+  background-color: transparent;
+  color: white;
+}
+.o_web_studio_app_creator {
+  min-height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box {
+  position: relative;
+  margin: auto;
+  height: 320px;
+  width: 700px;
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box .o_web_studio_app_creator_left,
+.o_web_studio_app_creator .o_web_studio_app_creator_box .o_web_studio_app_creator_right {
+  height: 100%;
+  width: 50%;
+  float: left;
+  padding: 16px 32px;
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box .o_web_studio_app_creator_left {
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+  -moz-flex-flow: column nowrap;
+  -webkit-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box .o_web_studio_app_creator_left .o_web_studio_app_creator_left_content {
+  -ms-flex: 1 1 100%;
+  -moz-flex: 1 1 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding-top: 50px;
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box .o_web_studio_app_creator_left .o_web_studio_app_creator_buttons {
+  -ms-flex: 0 0 auto;
+  -moz-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box .o_web_studio_app_creator_left .o_web_studio_app_creator_buttons .o_web_studio_app_creator_next {
+  float: right;
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box .o_web_studio_app_creator_right {
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box .o_web_studio_app_creator_right .o_web_studio_app_creator_leave {
+  position: absolute;
+  top: 16px;
+  left: auto;
+  bottom: auto;
+  right: 16px;
+}
+.o_web_studio_app_creator .o_web_studio_app_creator_box .o_web_studio_app_creator_right .o_web_studio_app_creator_right {
+  height: 200px;
+  width: 200px;
+}

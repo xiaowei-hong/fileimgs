@@ -1,0 +1,24 @@
+
+#preheader #language .dropdown-menu {
+  background-color: #fff;
+}
+#wrapwrap .navbar-default {
+  background-color: #fff;
+}
+#wrapwrap .navbar-default .navbar-nav > li > a {
+  color: #004460;
+}
+#wrapwrap .navbar-default .navbar-nav > li.active > a {
+  color: #fff;
+}
+#wrapwrap .navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #fff;
+}
+#wrapwrap .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #004460;
+}
+#wrapwrap .navbar-default .navbar-nav > li > .dropdown-menu > li.active > a,
+#wrapwrap .navbar-default .navbar-nav > li > .dropdown-menu > li.active > a:focus,
+#wrapwrap .navbar-default .navbar-nav > li > .dropdown-menu > li.active > a:hover {
+  color: #fff;
+}
